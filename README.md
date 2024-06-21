@@ -4,7 +4,7 @@
 - check_symmetric(R) : 관계 R이 대칭 관계인지를 판단하는 함수
 - check_reflexive(R) : 관계 R이 반사 관계인지를 판단하는 함수
 - check_equivalence(R, A) : 관계 R이 동치 관계인지 판단하는 함수
-최종적으로 True, False를 반환 해준다.
+(최종적으로 True, False를 반환 해준다.)
 
 
 
