@@ -17,6 +17,15 @@
 위 세 함수가 모두 True라면 동치관계 - True 반환
 세 함수 중 하나라도 False - False 반환
 
+### 사용 방법
 
+#### 요소 집합 A와 관계 R을 정의한다
+A = {1, 2, 3, 4}
+R = {(1, 1), (1, 3), (2, 2), (3, 3), (3, 1), (3, 4), (4, 4), (4, 3)}
 
+#### 속성을 검사한다
+print("반사적:", check_reflexive(R, A))
+print("대칭적:", check_symmetric(R))
+print("추이적:", check_transitive(R))
+print("동치 관계:", check_equivalence(R, A))
   
